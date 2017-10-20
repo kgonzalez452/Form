@@ -8,8 +8,40 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="Header">
-        
+    <div class="header">
+        Kevin Gonzalez
+        <a href="index.html">Home</a>
+        <a href="MyJobs.html">My Jobs</a>
+        <a href="AboutMe.html">About Me</a>
+     </div>
+
+
+    <div class="sidebar">
+     <ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="MyJobs.html">My Jobs</a></li>
+         <li><a href="AboutMe.html">About Me</a></li>
+        </ul>
+    </div>
+
+    <div class="main">
+        <!-- I need to make the following: Destination email, Full Name, Phone, date, time, email, subject, a textarea to hold email, and submit button -->
+        <form action="http://fvi-grad.com:4004/email" method="POST">
+            <input type="text" name="dest_email"/value="Destination Email">
+            <input type="text" name="full_name"/value="Full Name">
+            <input type="text" name="Phone"/value="Phone">
+            <input type="text" name="ddate"/value="ddate">
+            <input type="text" name="time"/value="Time">
+            <input type="text" name="email"/value="Email">
+            <input type="text" name="subject"/value="Subject">
+            <textarea name="message" id="" cols="30" rows="10"></textarea>
+            <input type="submit" name="submit" value="Submit">
+        </form>
+    </div>
+
+    <div class="footer">
+    Email:<a href="mailto:kgonzalez@techlaunch.io">kgonzalez@techlaunch.io</a>
+    Phone:7862272368
     </div>
 </body>
 </html>

@@ -1,0 +1,63 @@
+.header{
+    width: 100%;
+    height:100px;
+    font: 36px bold black;
+    text-shadow: 
+    padding: 0.25em;
+    border-bottom: 1px solid black;
+}
+
+.header a{
+    position: relative;
+    left: 58%;
+    font-size: 16px;
+    font-style: normal;
+
+}
+    
+.sidebar{
+    /* position: absolute; */
+    display: inline-block;
+    width: 30%;
+    height: 700px;
+    border-right: 1px solid black;
+}
+
+.sidebar a{
+    color: blue;
+}
+
+.sidebar a:visited{
+    color: red;
+}
+
+.main{
+    position: absolute;
+    display: inline-flex;
+    width: 64%;
+    height: auto;
+
+}
+.footer{
+    position: absolute;
+    border-top: 1px solid black;
+    top: 829px;
+    width: 100px;
+    /* height: auto; */
+    padding: 1em 1em 1em 25px;
+    padding-left: 25px;
+    border-top: 1px solid black;
+}
+
+form{
+    margin: 0px 146px 0px 0px;
+    flex: 100%;
+    padding: 100px;
+}
+
+form input{
+    display: block;
+    width: 270px;
+    border: 1px solid black;
+    margin: 0px 0px 15px 0px
+}
