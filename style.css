@@ -1,10 +1,14 @@
+body{
+    background-color:skyblue;
+}
+
 .header{
     width: 100%;
     height:100px;
     font: 36px bold black;
-    text-shadow: 
     padding: 0.25em;
     border-bottom: 1px solid black;
+    text-shadow: 2px 2px 4px #9518b4;
 }
 
 .header a{
@@ -21,6 +25,8 @@
     width: 30%;
     height: 700px;
     border-right: 1px solid black;
+    text-shadow: 2px 2px 4px #9518b4;
+    
 }
 
 .sidebar a{
@@ -50,8 +56,7 @@
 }
 
 form{
-    margin: 0px 146px 0px 0px;
-    flex: 100%;
+    margin: 0px 185px 0px 0px;
     padding: 100px;
 }
 
@@ -60,4 +65,30 @@ form input{
     width: 270px;
     border: 1px solid black;
     margin: 0px 0px 15px 0px
+}
+
+.Info{
+    text-align: center;
+    text-shadow: 2px 2px 4px rgb(174, 0, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font: 30px bold black;
+}
+
+.main{
+    animation: shake 0.5s; 
+    animation-iteration-count: infinite; 
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-0deg); }
 }
